@@ -27,6 +27,15 @@ namespace OperadoresCsharp
             Console.WriteLine(-(-numeroOperador));
 
             // Binários * / + -
+
+            var soma = 4 + 5;
+            var subtracao = 4 - 5;
+            var multiplicacao = 4 * 5;
+            var divisao = 20 / 3;
+            var divisaoDouble = (double)20 / 3;
+
+            var multiplos = (4 * 5) + 10;
+
             #endregion
 
             Console.Read();
