@@ -58,6 +58,33 @@ namespace OperadoresCsharp
             Console.WriteLine(4 != 5);
 
             #endregion
+
+            #region Operadores Lógicos AND && e OR ||
+
+            var minhaNota = 7;
+            var ultimoAno = true;
+
+            if (minhaNota >= 7 && ultimoAno)
+            {
+                Console.WriteLine("Aprovado");
+            } 
+            
+            if (minhaNota >= 7 || ultimoAno)
+            {
+                Console.WriteLine("Aprovado!");
+            }
+
+            Console.WriteLine(true || false);
+            Console.WriteLine(false || true);
+            Console.WriteLine(true || true);
+            Console.WriteLine(false || false);
+
+            Console.WriteLine(true && false);
+            Console.WriteLine(false && true);
+            Console.WriteLine(true && true);
+            Console.WriteLine(false && false);
+
+            #endregion
             Console.Read();
         }
     }
