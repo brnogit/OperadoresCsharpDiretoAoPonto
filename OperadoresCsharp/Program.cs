@@ -48,6 +48,16 @@ namespace OperadoresCsharp
             Console.WriteLine(5 <= 5);
             Console.WriteLine(5 < 6);
             #endregion
+
+            #region Operadores de Igualdade ==, !=
+
+            Console.WriteLine(5 == 5);
+            Console.WriteLine(5 == 4); // é igual
+
+            Console.WriteLine(5 != 5); //diferente
+            Console.WriteLine(4 != 5);
+
+            #endregion
             Console.Read();
         }
     }
